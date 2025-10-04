@@ -57,7 +57,7 @@ ax.yaxis.set_minor_locator(mpl.ticker.MultipleLocator(0.00005))
 ax.tick_params(which='major',length=5,width=1.5,labelsize='x-large')
 ax.tick_params(which='minor',length=3)
 ax.set_title('Apparent motion of Proxima due to parallex and proper motion',size='xx-large',color='black')
-fig.savefig('Proxima.png', format='png', dpi=600, bbox_inches='tight', pad_inches=0.2)
+# fig.savefig('Proxima.png', format='png', dpi=600, bbox_inches='tight', pad_inches=0.2)
 
 
 
